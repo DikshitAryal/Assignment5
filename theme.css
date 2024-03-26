@@ -1,0 +1,47 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply font family to the body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Define custom colors */
+:root {
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #e74c3c; /* Red */
+    --text-color: #333; /* Dark gray */
+}
+
+/* Apply full-page gradient background */
+body, html {
+    background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+    overflow: auto;
+}
+
+/* Add box shadow to elements */
+.box-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for specific elements (add more as needed) */
+h1 {
+    color: var(--text-color);
+}
+
+/* Styling for navigation links */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling for footer */
+footer {
+    color: white;
+    text-align: center;
+}
+
+/* Responsive styles (add more as needed) */
+@media (max-width: 768px) {
+    /* Add responsive styles */
+}

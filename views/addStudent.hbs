@@ -1,0 +1,105 @@
+<div class="container" style="font-family: Arial, sans-serif; color: #333;">
+    <div class="row">
+        <main class="col-lg-8 offset-lg-2">
+
+            <!-- Start your code here -->
+            
+            <form method="POST" action="/students/add" style="background-color: #f5f5f5; padding: 20px; border-radius: 10px;">
+                <fieldset>
+                    <legend style="color: #007bff; font-weight: bold;">Personal Information</legend>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label style="color: #333;">First Name:</label>
+                                <input class="form-control" name="firstName" type="text" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label style="color: #333;">Last Name:</label>
+                                <input class="form-control" name="lastName" type="text" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label style="color: #333;">Email:</label>
+                                <input class="form-control" name="email" type="email" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label style="color: #333;">Address (Street):</label>
+                                <input class="form-control" name="addressStreet" type="text" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label style="color: #333;">Address (City):</label>
+                                <input class="form-control" name="addressCity" type="text" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label style="color: #333;">Address (Province):</label>
+                                <input class="form-control" name="addressProvince" type="text" />
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend style="color: #007bff; font-weight: bold;">Academic Information</legend>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label style="color: #333;">College Employment:</label><br />
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="TA">
+                                <label class="form-check-label" for="TA" style="color: #333;">
+                                    Teaching Assistant
+                                </label>
+                            </div>
+                            <br />
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label style="color: #333;">Enrollment Status:</label><br />
+                                <label class="checkbox-inline" style="color: #333;">
+                                    <input type="radio" value="Full Time" /> Full Time
+                                </label>
+                                <label class="checkbox-inline" style="color: #333;">
+                                    <input type="radio" value="Part Time" /> Part Time
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="course" style="color: #333;">Enrolled in Course:</label>
+                                <select class="form-control" id="course" name="course">
+                                    <option value="DES720">Relational Database Design and Implementation</option>
+                                    <option value="JAV745">Java Programming</option>
+                                    <option value="OPS705">Introduction to Cloud Computing</option>
+                                    <option value="SQL710">Database Administration and Management</option>
+                                    <option value="WEB700">Web Programming</option>
+                                    <option value="CAP805">Applied Capstone Project</option>
+                                    <option value="CJV805">Database Connectivity Using Java</option>
+                                    <option value="DBD800">Accessing Big Data</option>
+                                    <option value="DBW825">Datawarehousing</option>
+                                    <option value="SEC835">Security in Databases and Web Applications</option>
+                                    <option value="WTP100">Work Term Preparation (Work-Integrated Learning option only)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <hr style="border-color: #007bff;">
+                <input type="submit" class="btn btn-primary float-right" value="Add Student" style="background-color: #007bff; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; font-weight: bold;" /><br /><br /><br />
+            </form>
+            
+            <!-- End your code here -->
+
+        </main>
+    </div>
+</div>
